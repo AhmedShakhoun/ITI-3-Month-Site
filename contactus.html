@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+    <link rel="icon" href="Res/itiFavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/fontawesome.min.css">   
+ <link rel="stylesheet" href="Css/style4.css">
+   <script>
+    function checkInput()
+         {
+            var name=document.getElementById("txtname");
+            var email=document.getElementById("txtemail");
+            var phone=document.getElementById("txtphone");
+            var txtarea=document.getElementById("textarea");
+            if(name.value==""||email.value==""|| phone.value==""||txtarea.value=="")
+            {
+                alert("Enter Missed Data");
+                window.location.href="contactus.html";
+            }
+            else
+            {
+                alert("Your Message Send to us");
+            }
+         }
+    </script>
+    </head>
+    <body>
+        <!--start navbar-->
+    <div class="navbar">
+        <div class="container">
+            <img src="Res/logo.PNG">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="track.html">TRACKS</a></li>
+                <li><a href="evaluation.html">EVALUTION</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+           <!--end navbar-->
+        
+        <!--start contact_form-->
+      <div class="total_form">
+    <div class="container">
+<div class="contact-form">
+<h1>  Contact Us </h1>
+<div class="txtb">
+<label> Full Name :</label>
+<input id="txtname" type="text" placeholder="Enter Your Name" />
+</div>
+<div class="txtb">
+<label> Email :</label>
+<input id="txtemail" type="text" placeholder="Enter Your Email" />
+</div>
+<div class="txtb">
+<label> Phone Number :</label>
+<input id="txtphone" type="text" placeholder="Enter Your Phone Number" />
+</div>
+<div class="txtb">
+<label>Message</label>
+<textarea id="textarea">  </textarea>
+</div>
+    <a class="btn" onclick="checkInput();" href="#" >Send</a>
+<!--<a class="btn">Send</a>-->
+</div>
+          </div>
+         </div>
+
+         <!--end contact_form-->
+   
+        <!--start footer-->
+         <div class="footer">
+                       <span>Copyright &copy; 2019 Future Team Supervised by ITI Organization.</span>
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                    </div>
+                <!--end footer-->
+        <script src="Js/fontawesome-all.min.js"></script>
+    </body>
+</html>

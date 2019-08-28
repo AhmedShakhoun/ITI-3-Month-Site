@@ -1,0 +1,112 @@
+
+body{background-color: #c2d7e2;
+    
+}
+table 
+{
+  border:3px solid #DDD;
+  border-radius:16px;
+  
+  }
+
+*{margin: 0;padding: 0;}
+.container{
+    width:90%;
+    margin-left: 5%;
+}
+
+/* style navbar*/
+ .navbar{
+    background-color: #5b0d0d;
+    color:#fff;
+    margin-top: 0px;
+    overflow: hidden;
+} 
+ .navbar img{
+    width: 350px;
+    float: left;
+    margin-top: 7px
+}
+ .navbar ul{
+    list-style: none;
+    padding-left: 0px;
+    float: right;
+    margin-right: 120px;
+    padding-top: 13px;
+}
+ .navbar ul li{
+    float: left;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .navbar ul li a{
+    color:#f4f4f4;
+    text-decoration: none;
+}
+td
+{
+  background:#f5f5f0;
+  border-width:1px;
+  padding:10px;
+  margin:10px;
+}
+.div1
+{
+  border:#f5f5f0;
+  padding:10px;
+  margin-left:280px;
+}
+.i
+{
+  background:#ebebe0;
+}
+ textarea{
+  background-color:#DDD;
+  }
+.btn{
+display: inline-block;
+    background: #4E6576;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 70px;
+    padding-right: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 300px;
+    width: 0%;
+    font-size: 20px;
+    border-radius: 35px;
+ }
+/************************style footer***********************/
+
+.footer{
+    text-align: center;
+    background-color: #5b0d0d;
+    overflow: hidden;
+}
+.footer span{
+   display: block;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+   color:#fff;
+}
+.footer .fa-facebook,.fa-linkedin,.fa-instagram,.fa-twitter
+{
+    font-size:30px;
+    padding:15px;
+    color:#fff;
+}
+.navbar li a:hover{
+    border-bottom: 2px solid #fff;
+    color: red !important;
+}
+
+
+
+
+
